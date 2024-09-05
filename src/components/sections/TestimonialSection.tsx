@@ -7,32 +7,33 @@ function TestimonialSection() {
     {
       imageUrl: "/images/t_1.png",
       review:
-        "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.",
+        "Mas eu devo explicar a você como toda essa ideia equivocada de denunciar o prazer e louvar a dor surgiu, e eu lhe darei um relato completo do sistema e exponho os reais ensinamentos do grande explorador da verdade, o mestre-construtor da felicidade humana.",
       name: "John Doe",
-      position: "Accountant",
+      position: "Contador",
     },
     {
       imageUrl: "/images/t_2.png",
       review:
-        "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.",
+        "Mas eu devo explicar a você como toda essa ideia equivocada de denunciar o prazer e louvar a dor surgiu, e eu lhe darei um relato completo do sistema e exponho os reais ensinamentos do grande explorador da verdade, o mestre-construtor da felicidade humana.",
       name: "John Smith",
-      position: "Journalist, HWO News",
+      position: "Jornalista, HWO News",
     },
     {
       imageUrl: "/images/t_3.png",
       review:
-        "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.",
+        "Mas eu devo explicar a você como toda essa ideia equivocada de denunciar o prazer e louvar a dor surgiu, e eu lhe darei um relato completo do sistema e exponho os reais ensinamentos do grande explorador da verdade, o mestre-construtor da felicidade humana.",
       name: "Tamara Bellis",
-      position: "Managing Director, JTH",
+      position: "Diretora Geral, JTH",
     },
   ];
+
   return (
     <section>
-      <div className="flex  flex-col md:flex-row justify-between items-end">
+      <div className="flex flex-col md:flex-row justify-between items-end">
         <div>
           <Header
-            title="Traveler's Experiences"
-            description="Here some awesome feedback from our travelers"
+            title="Experiências dos Viajantes"
+            description="Aqui estão alguns depoimentos incríveis de nossos viajantes"
             isLongUnderline
           />
         </div>
@@ -50,13 +51,13 @@ function TestimonialSection() {
             <img
               src="/images/left_icon.svg"
               className="w-[40px]"
-              alt="left icon"
+              alt="ícone da esquerda"
             />
           </div>
           <div className="hover:cursor-pointer">
             <img
               src="/images/right_icon.svg"
-              alt="right icon"
+              alt="ícone da direita"
               className="w-[40px]"
             />
           </div>

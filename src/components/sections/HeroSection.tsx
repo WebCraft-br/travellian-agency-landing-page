@@ -27,7 +27,7 @@ function HeroSection({
     },
     {
       value: "brazil",
-      displayName: "Brazil",
+      displayName: "Brasil",
     },
   ];
 
@@ -44,23 +44,23 @@ function HeroSection({
 
   const checkIn = [
     {
-      value: "Sun, 17th Sep 2020",
-      displayName: "Sun, 17th Sep 2020",
+      value: "Dom, 17 Set 2020",
+      displayName: "Dom, 17 Set 2020",
     },
     {
-      value: "Sun, 18th Sep 2020",
-      displayName: "Sun, 18th Sep 2020",
+      value: "Dom, 18 Set 2020",
+      displayName: "Dom, 18 Set 2020",
     },
   ];
 
   const checkOut = [
     {
-      value: "Sun, 17th Oct 2020",
-      displayName: "Sun, 17th Oct 2020",
+      value: "Dom, 17 Out 2020",
+      displayName: "Dom, 17 Out 2020",
     },
     {
-      value: "Sun, 18th Oct 2020",
-      displayName: "Sun, 18th Oct 2020",
+      value: "Dom, 18 Out 2020",
+      displayName: "Dom, 18 Out 2020",
     },
   ];
 
@@ -84,20 +84,20 @@ function HeroSection({
             "mx-8 xl:mx-[184px]"
           )}
         >
-          Start your unforgettable <br /> journey with us.
+          Comece sua jornada <br /> inesquecível conosco.
         </p>
         <p className="text-24 text-white font-normal mt-3 mx-8 xl:mx-[184px]">
-          The best travel for your jouney begins now
+          A melhor viagem para sua jornada começa agora
         </p>
       </div>
 
       <div className="flex flex-col md:flex-row mt-8 md:mt-[170px] mx-4 md:mx-0">
         <div className="bg-white py-16 flex flex-col rounded-t-[16px] md:rounded-t-none md:flex-row gap-[40px] px-4 md:px-32">
           <div>
-            <p className="text-customGray mb-4">Destination</p>
+            <p className="text-customGray mb-4">Destino</p>
             <Select>
               <SelectTrigger className="w-full border-t-0 border-x-0 border-b border-b-black rounded-none">
-                <SelectValue placeholder="Select a destination" />
+                <SelectValue placeholder="Selecione um destino" />
               </SelectTrigger>
               <SelectContent>
                 <SelectGroup>
@@ -112,10 +112,10 @@ function HeroSection({
           </div>
 
           <div>
-            <p className="text-customGray mb-4">Person</p>
+            <p className="text-customGray mb-4">Pessoas</p>
             <Select>
               <SelectTrigger className="w-full border-t-0 border-x-0 border-b border-b-black rounded-none">
-                <SelectValue placeholder="Select persons" />
+                <SelectValue placeholder="Selecione pessoas" />
               </SelectTrigger>
               <SelectContent>
                 <SelectGroup>
@@ -130,10 +130,10 @@ function HeroSection({
           </div>
 
           <div>
-            <p className="text-customGray mb-4">Check in</p>
+            <p className="text-customGray mb-4">Check-in</p>
             <Select>
               <SelectTrigger className="w-full border-t-0 border-x-0 border-b border-b-black rounded-none">
-                <SelectValue placeholder="Select checkin" />
+                <SelectValue placeholder="Selecione o check-in" />
               </SelectTrigger>
               <SelectContent>
                 <SelectGroup>
@@ -148,10 +148,10 @@ function HeroSection({
           </div>
 
           <div>
-            <p className="text-customGray mb-4">Check out</p>
+            <p className="text-customGray mb-4">Check-out</p>
             <Select>
               <SelectTrigger className="w-full border-t-0 border-x-0 border-b border-b-black rounded-none">
-                <SelectValue placeholder="Select checkout" />
+                <SelectValue placeholder="Selecione o check-out" />
               </SelectTrigger>
               <SelectContent>
                 <SelectGroup>
@@ -172,8 +172,8 @@ function HeroSection({
               playFair.className
             )}
           >
-            <p className="text-[36px]">Book</p>
-            <p className="text-[36px]">Now</p>
+            <p className="text-[36px]">Reserve</p>
+            <p className="text-[36px]">Agora</p>
           </div>
           <ArrowRight color="#fff" />
         </div>

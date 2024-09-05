@@ -8,33 +8,34 @@ function SpecialOfferSection() {
   const data = [
     {
       imageUrl: "/images/so_1.jpg",
-      location: "Lisbon, Portugal",
+      location: "Lisboa, Portugal",
       description:
-        "5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.",
+        "5 noites e 4 dias em um hotel 5 estrelas, café da manhã e almoço incluídos. Muito popular durante o renascimento. Passagem e visita às cidades do mundo na literatura clássica.",
       amount: "500",
     },
     {
       imageUrl: "/images/so_2.jpg",
-      location: "Athens, Greece",
+      location: "Atenas, Grécia",
       description:
-        "5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.",
+        "5 noites e 4 dias em um hotel 5 estrelas, café da manhã e almoço incluídos. Muito popular durante o renascimento. Passagem e visita às cidades do mundo na literatura clássica.",
       amount: "800",
     },
     {
       imageUrl: "/images/so_3.jpg",
-      location: "Rome, Italy",
+      location: "Roma, Itália",
       description:
-        "5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.",
+        "5 noites e 4 dias em um hotel 5 estrelas, café da manhã e almoço incluídos. Muito popular durante o renascimento. Passagem e visita às cidades do mundo na literatura clássica.",
       amount: "750",
     },
   ];
+
   return (
     <section>
       <div className="flex flex-col md:flex-row-reverse gap-4 justify-between items-end">
         <div>
           <Header
-            title="Special Offer"
-            description="Check out our special offer and discounts"
+            title="Oferta Especial"
+            description="Confira nossa oferta especial e descontos"
           />
         </div>
         <div className="flex items-center gap-[20px]">
@@ -42,13 +43,13 @@ function SpecialOfferSection() {
             <img
               src="/images/left_icon.svg"
               className="w-[40px]"
-              alt="left icon"
+              alt="ícone da esquerda"
             />
           </div>
           <div className="hover:cursor-pointer">
             <img
               src="/images/right_icon.svg"
-              alt="right icon"
+              alt="ícone da direita"
               className="w-[40px]"
             />
           </div>

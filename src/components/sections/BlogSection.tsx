@@ -8,8 +8,8 @@ function BlogSection() {
     <section>
       <div>
         <Header
-          title="Our Blog"
-          description="An insight into the incredible experience in the world"
+          title="Nosso Blog"
+          description="Uma visão sobre a experiência incrível no mundo"
         />
       </div>
 
@@ -17,7 +17,7 @@ function BlogSection() {
         <div className="w-full">
           <img
             src="/images/blog.jpg"
-            alt="feature blog image"
+            alt="imagem em destaque do blog"
             className="h-[500px] rounded-[26px] w-full object-cover"
           />
         </div>
@@ -28,22 +28,22 @@ function BlogSection() {
               "leading-tight text-[30px] md:text-[54px]"
             )}
           >
-            Beautiful Italy <br />
-            Let&apos;s travel
+            Bela Itália <br />
+            Vamos viajar
           </p>
           <p className="py-4">
-            But I must explain to you how all this mistaken idea of denouncing
-            pleasure and praising pain was born and I will give you a complete
-            account of the system and expound the actual teachings of the great
-            explorer of the truth, the master- builder of human happiness. No
-            one rejects, dislike, or avoids plasure itself, because it is
-            pleasure, but because those who do not know how to pursue pleasure
-            rationally encounter consequences that are extremly painful. Nor
-            again is there anyone who loves or pursues.
+            Mas eu preciso explicar a você como toda essa ideia equivocada de
+            denunciar o prazer e louvar a dor surgiu, e eu darei a você um
+            relato completo do sistema e exporei os verdadeiros ensinamentos do
+            grande explorador da verdade, o mestre-construtor da felicidade
+            humana. Ninguém rejeita, desgosta ou evita o prazer em si, porque
+            é prazer, mas porque aqueles que não sabem como buscar o prazer
+            racionalmente encontram consequências que são extremamente
+            dolorosas. Nem há alguém que ame ou busque.
           </p>
 
           <div className="text-primary flex items-center gap-3">
-            Read More
+            Leia Mais
             <ArrowRight color="#FF7757" />
           </div>
         </div>
