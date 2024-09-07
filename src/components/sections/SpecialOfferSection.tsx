@@ -11,21 +11,21 @@ function SpecialOfferSection() {
       location: "Lisboa, Portugal",
       description:
         "5 noites e 4 dias em um hotel 5 estrelas, café da manhã e almoço incluídos. Muito popular durante o renascimento. Passagem e visita às cidades do mundo na literatura clássica.",
-      amount: "500",
+      amount: "5000",
     },
     {
       imageUrl: "/images/so_2.jpg",
       location: "Atenas, Grécia",
       description:
         "5 noites e 4 dias em um hotel 5 estrelas, café da manhã e almoço incluídos. Muito popular durante o renascimento. Passagem e visita às cidades do mundo na literatura clássica.",
-      amount: "800",
+      amount: "8000",
     },
     {
       imageUrl: "/images/so_3.jpg",
       location: "Roma, Itália",
       description:
         "5 noites e 4 dias em um hotel 5 estrelas, café da manhã e almoço incluídos. Muito popular durante o renascimento. Passagem e visita às cidades do mundo na literatura clássica.",
-      amount: "750",
+      amount: "7500",
     },
   ];
 

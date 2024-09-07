@@ -27,8 +27,8 @@ function SpecialOfferCard({ imageUrl, location, description, amount }: IProps) {
 
         <div className="flex flex-col gap-2 md:flex-row justify-between">
           <div className="flex items-center gap-2">
-            <p className="text-customGray">From</p>
-            <p className="text-primary  text-[40px]">€{amount}</p>
+            <p className="text-customGray">De</p>
+            <p className="text-primary  text-[40px]">R${amount}</p>
           </div>
 
           <MainButton text="Details" classes="w-[130px]" />

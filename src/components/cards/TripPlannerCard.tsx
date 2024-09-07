@@ -36,7 +36,7 @@ function TripPlannerCard({
       >
         <div className="flex justify-between text-[#172432]">
           <p className="uppercase text-[18px]">{title}</p>
-          <p>€{amount}/Day</p>
+          <p>€{amount}/Dia</p>
         </div>
         <p
           className={cn(

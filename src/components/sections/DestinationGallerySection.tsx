@@ -24,7 +24,7 @@ function DestinationGallerySection() {
         <div>
           <Header
             title="Destination Gallery"
-            description="Our photo gallery on trip"
+            description="Nossa galeria de fotos em viagens"
             isLongUnderline
           />
         </div>
